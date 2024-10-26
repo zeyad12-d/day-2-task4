@@ -8,16 +8,18 @@ namespace day2_task_4
         {
             Console.WriteLine(  "Enter Number Between, 2 , and , 9 ,");
             int num=int.Parse( Console.ReadLine() );
-
-            for (int i = 0; i < num; i++) 
-            {
-                int ruelt = 0;
+            
+                    int ruelt = 0;
                 if (num >= 2 && num <= 9)
 
-                {
+                { 
+                    for (int i = 0; i < num; i++)
+                    {
                     ruelt= num * i;
                     Console.WriteLine($"the num is {num} * {i} = {ruelt} ");
+                    }
                 }
+            
 
                 else
                 {
